@@ -21,3 +21,6 @@ img= lr_imgs[8]
 # cv2.waitKey(0)
 
 # download_pretrained(config)  #only first time
+def read_img(img):
+    img=cv2.imread(img)
+    return img
